@@ -11,3 +11,13 @@ button{
 .content{
     color:lawngreen;
 }
+
+div{
+    width: 300px;
+    height: 200px;
+    background: green;
+}
+
+.white{
+    color:#fff;
+}
