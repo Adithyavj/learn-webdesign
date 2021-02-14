@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="show()">Click me</button>
+    <script>
+        function show(){
+            display()
+            console.log("Button Clicked")
+            var a=1
+            var b=2
+            var sum=a+b
+            console.log("Sum="+sum)
+
+            var c=4
+            var c=5
+            let d=7
+            // let d=8 this will create error
+            const e=10
+            //e=11
+            console.log("value of c is "+c)
+            console.log("value of d is "+d)
+            console.log("value of e is "+e)
+            //Conditional Statements
+            if (e%2==0){
+                console.log("e is Even")
+            }else{
+                console.log("e is Odd")
+            }
+            //Loop
+            for(var i=0;i<10;i++)
+            {
+                console.log(i)
+            }
+            //Arrays
+            var arr=["apple",10,"orange","mango"]
+            console.log(arr)
+            console.log(arr[0])
+            //Object in JS
+            var person={
+                Name:"Adithya Vijay K",
+                Age:24,
+                Place:"Malappuram"
+            }
+            console.log(person)
+            console.log(person.Name)
+            var newperson=[
+                {
+                Name:"Adithya Vijay K",
+                Age:24,
+                Place:"Melattur"
+            },
+            {
+                Name:"Arjun",
+                Age:25,
+                Place:"Perinthalmanna"
+            }
+        ]
+        console.log(newperson)
+        console.log(newperson[1].Name)
+        }
+        function display()
+        {
+            console.log("Hey")
+        }
+    </script>
+</body>
+</html>
