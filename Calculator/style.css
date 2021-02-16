@@ -4,10 +4,17 @@
     background: grey;
     margin-left: 400px;
 }
-.screen{
+#screen{
     width: 80%;
     height: 40px;
     margin-left: 36px;
     margin-top: 30px;
     pointer-events: none;
+}
+.btn{
+    width: 60px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background: beige;
 }
