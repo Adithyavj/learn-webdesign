@@ -43,18 +43,18 @@
                 <h1 class="rs-h1">Create an account</h1>
                 <p class="rs-para">It's free and always will be.</p>
                 <div class="signupform">
-                    <form>
+                    <form id="signup-form">
                         <div class="inputname">
-                            <input class="namebox namebox1 signuptextbox" type="text" placeholder="Firstname" required>
-                            <input class="namebox namebox2 signuptextbox" type="text" placeholder="Surname" required>
+                            <input name="fname" class="namebox namebox1 signuptextbox" type="text" placeholder="Firstname">
+                            <input name="surname" class="namebox namebox2 signuptextbox" type="text" placeholder="Surname">
                         </div>  
-                        <input class="mobileno signuptextbox" type="text" placeholder="Mobile number or email address" required>
-                        <input class="mobileno signuptextbox" type="password" placeholder="New Password" required>
+                        <input name="email" class="mobileno signuptextbox" type="text" placeholder="Mobile number or email address" required>
+                        <input name="password" class="mobileno signuptextbox" type="password" placeholder="New Password" required>
                         <br>
                         <p id="birthday" class="createp">Birthday</p>
                         <div class="dobdiv">
                             <select name="dobdate" class="dob day">
-                                <option value="Day">Day</option>
+                                <option value="">Day</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -134,7 +134,7 @@
                             <p class="terms">By clicking Sign Up, you agree to our <a href="#" class="linksinterms">Terms</a>, <a href="#" linksinterms>Data Policy</a> and <a>Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
                         </div>
                         <div class="clearfix">
-                            <button type="button" id="signupbutton">Sign Up</button>
+                            <button id="signupbutton" type="button">Sign Up</button>
                         </div>
                         <div id="createpage">
                             <a href="#">Create a Page</a> for a celebrity, band or business.
@@ -203,6 +203,7 @@
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>   
+    <script src="script.js"></script>
 </body>
 </html>
